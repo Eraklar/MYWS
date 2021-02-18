@@ -44,17 +44,66 @@ img#photo_img{
   border-radius: 9px;
   margin-left:30%;
   margin-top:30%;
+<<<<<<< HEAD
 }
 
 
 #burger_2{
   width:60px;
   height: 58px;
+=======
+  padding-left: 6px;
+}
+
+#burger:hover{
+  z-index:10;
+}
+
+#burger.active{
+  z-index:11;
+}
+
+#burger span{
+  width : 33px;
+  height: 5px;
+  display: block;
+  background-color : #000000;
+  position: absolute;
+  border-radius: 9px;
+  top: 50%;
+  margin :10%;
+  transform: translateY(-7px); /* pour que la barre soit bien au milieu */
+}
+
+#burger span::before, #burger span::after{
+   border-radius: 9px;
+   content : '';
+   position : absolute;
+   width: 100%;
+   height: 5px;
+   margin-left: -17px;
+   background-color : #000000;
+}
+
+#burger span::before{
+  transform: translateY(-11px);
+}
+
+#burger span::after{
+  transform: translateY(11px);
+}
+
+#burger_2{
+  width: 60px;
+  height :60px;
+  cursor : pointer;
+>>>>>>> 74148263d917e0bd531007f9f395d1c1538c80c3
   position: relative;
   background-color: #FFFFFF;
   border-radius: 9px;
   margin-left:6%;
   margin-top:8%;
+<<<<<<< HEAD
   background-image: "hamburger.jpg";
 }
 
@@ -62,6 +111,47 @@ img#photo_img{
   width:47px;
   height: 47px;
   background-position: center;
+=======
+  padding-left: 6px;
+}
+
+#burger_2:hover{
+  z-index:10;
+}
+
+#burger_2.active{
+  z-index:11;
+}
+
+#burger_2 span{
+  width : 33px;
+  height: 5px;
+  display: block;
+  background-color : #000000;
+  position: absolute;
+  border-radius: 9px;
+  top: 50%;
+  margin :10%;
+  transform: translateY(-7px); /* pour que la barre soit bien au milieu */
+}
+
+#burger_2 span::before, #burger_2 span::after{
+   border-radius: 9px;
+   content : '';
+   position : absolute;
+   width: 100%;
+   height: 5px;
+   margin-left: -17px;
+   background-color : #000000;
+}
+
+#burger_2 span::before{
+  transform: translateY(-11px);
+}
+
+#burger_2 span::after{
+  transform: translateY(11px);
+>>>>>>> 74148263d917e0bd531007f9f395d1c1538c80c3
 }
 
 #pres_sentence{
@@ -119,7 +209,11 @@ img#photo_img{
   z-index:0;
   width : 400px;
   height: 100%;
+<<<<<<< HEAD
   background-color: #FFFF00;
+=======
+  background-color: #000000;
+>>>>>>> 74148263d917e0bd531007f9f395d1c1538c80c3
   left: -400px;
   transition: .4s;
 }
