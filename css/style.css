@@ -55,6 +55,7 @@ img#photo_img{
   border-radius: 9px;
   margin-left:6%;
   margin-top:8%;
+
   background-image: "hamburger.jpg";
 }
 
@@ -62,9 +63,6 @@ img#photo_img{
   width:47px;
   height: 47px;
   background-position: center;
-<<<<<<< HEAD
-  padding-left: 6px;
->>>>>>> 4aae4e001d2505d325e1e4c8880c0932979283cd
 }
 
 #pres_sentence{
@@ -149,14 +147,33 @@ img#photo_img{
   margin-top: 6vh;
 }
 
-#sidemenu ul li a{
-   display : block;
-}
-
-#sidemenu ul li a .fas{
-   display : block;
+#sidemenu{
+  padding:30px 0;
+  vertical-align: middle;
 }
 
 #sidemenu ul li a{
    display : block;
+   height: 50px;
+   width: 100%;
+   font-family: 'Big Shoulders Display', cursive;
+   font-size: 25px;
+   text-decoration: none;
+   color:black;
+   padding-top: 10px;
+
+}
+
+#sidemenu ul li{
+   border-top: 1px solid rgba(255,255,2550,0.5);
+   border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+
+#sidemenu ul li:hover{
+   background: #000023;
+}
+
+#sidemenu ul a:hover{
+   color: white;
 }
